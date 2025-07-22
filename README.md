@@ -93,7 +93,12 @@ An interactive Streamlit app was built for deployment:
 
 The model is saved as a serialized file (`best_model.pkl`) using `joblib`.
 
+## 🌐 Web Application
+You can launch the app locally using Streamlit:
+
+```bash
+streamlit run app.py
+
 ---
 
-## 📂 Files Included
 
