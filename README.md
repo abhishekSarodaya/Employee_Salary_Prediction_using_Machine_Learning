@@ -1,6 +1,6 @@
 # 🧠 Employee Salary Prediction using Machine Learning
 
-This project focuses on predicting whether an individual earns more than $50K per year using machine learning techniques on census income data. It involves data cleaning, feature engineering, model training, and deployment through an interactive web app built with **Streamlit**.
+This project aims to predict whether an individual's annual income exceeds $50K using machine learning algorithms applied to census income data. The implementation includes comprehensive data preprocessing, feature engineering, model development, and deployment via an interactive **Streamlit** web application.
 
 ---
 
@@ -15,8 +15,7 @@ The goal is to build a classification model that can determine an employee's inc
 - Gender
 - ...and more
 
-This end-to-end machine learning project walks through the complete data science workflow — from raw data to production-ready deployment.
-
+This comprehensive machine learning project demonstrates the complete data science pipeline — transforming raw data into a production-ready predictive system for real-world salary classification.
 ---
 
 ## 🗂️ Dataset Description
@@ -40,6 +39,7 @@ The dataset used originates from the U.S. Census Bureau and is available on [Kag
 | `hours-per-week` | Number of hours worked per week                      |
 | `native-country` | Country of origin                                    |
 | `income`         | Target label (<=50K or >50K)                         |
+
 
 ---
 
@@ -72,11 +72,11 @@ The dataset used originates from the U.S. Census Bureau and is available on [Kag
 
 | Model                    | Accuracy  |
 |--------------------------|-----------|
-| Logistic Regression      | 79.3%     |
-| Random Forest Classifier | 85.2%     |
-| K-Nearest Neighbors      | 77.0%     |
-| Support Vector Machine   | 78.8%     |
-| **Gradient Boosting**    | **85.7%** ✅ |
+| Logistic Regression      | 77.76%     |
+| Random Forest Classifier | 80.78%     |
+| K-Nearest Neighbors      | 77.91%     |
+| Support Vector Machine   | 78.95%     |
+| **Gradient Boosting**    | **82.95%** ✅ |
 
 > ✅ **Gradient Boosting Classifier** was selected as the final model due to its highest accuracy.
 
